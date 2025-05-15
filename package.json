@@ -1,0 +1,22 @@
+{
+  "name": "online-exam-portal",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Rabinsanraj/Online-Exam-portal#readme",
+  "bugs": {
+    "url": "https://github.com/Rabinsanraj/Online-Exam-portal/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rabinsanraj/Online-Exam-portal.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "deploy": "gh-pages -d dist",
+    "snap": "git add . && git commit -m 'mod' && git push origin main && npm run build && npm run deploy"
+  }
+}

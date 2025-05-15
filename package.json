@@ -17,6 +17,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
      "deploy": "gh-pages -d dist",
-    "snap": "git add . && git commit -m 'mod' && git push origin main && npm run build && npm run deploy"
+    "snap": "git add . && git commit -m 'mod' && git push origin main"
   }
 }
